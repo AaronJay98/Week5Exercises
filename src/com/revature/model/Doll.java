@@ -10,7 +10,7 @@ public class Doll extends Toy {
 	  }
 
 	  public Doll(String name, String eyeColor){
-	    this.name = name;
+		super(name);
 	    this.eyeColor = eyeColor;
 	  }
 
